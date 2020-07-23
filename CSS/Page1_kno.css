@@ -1,0 +1,16 @@
+.row {
+    background-image: url(../PHOTO/主頁/background2.png);
+}
+
+
+/* ------aside開始------ */
+
+.sticky-top {
+    text-align: center;
+    height: 720px;
+    background-image: url(./);
+}
+
+.sticky-top>button {
+    margin-top: 10px;
+}

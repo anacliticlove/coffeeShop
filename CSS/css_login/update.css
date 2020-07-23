@@ -1,0 +1,25 @@
+body {
+    font-family: happy;
+    background-image: url('../../PHOTO/主頁/background.png')
+}
+
+.row {
+    margin-top: 50px;
+    height: 600px;
+}
+
+.col-6 {
+    background-image: url('../../PHOTO/主頁/background2.png');
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(231, 77, 77);
+}
+
+.form-group {
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+.form-horizontal {
+    padding-top: 20px;
+    padding-left: 150px;
+}

@@ -1,0 +1,64 @@
+body {
+    font-family: happy;
+    background-image: url(../PHOTO/主頁/background2.png);
+}
+
+
+/* ------喜好選單開始------ */
+
+
+/* .container {
+    background-image: url(../PHOTO/主頁/background2.png);
+} */
+
+
+/* 分隔標題 */
+
+.order {
+    height: 60px;
+    line-height: 60px;
+    /* text-align: left; */
+    margin: auto;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+.order .line {
+    display: inline-block;
+    width: 200px;
+    border-top: 3px solid black;
+}
+
+.order .txt {
+    color: black;
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+
+/* 咖啡選單  */
+
+.coffeeForm {
+    width: 75vw;
+    height: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.col-form-label {
+    text-align: right;
+    padding-right: 15px;
+}
+
+label>span {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+.custom-select {
+    font-size: 1.5rem;
+}
+
+
+/* ------喜好選單結束------ */

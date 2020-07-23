@@ -1,0 +1,111 @@
+/* 字型 */
+
+body {
+    font-family: happy;
+}
+
+
+/* 背景 */
+
+.row {
+    /* background-color: rgb(59, 58, 58); */
+    background-image: url(../PHOTO/主頁/background2.png);
+}
+
+
+/* SVG圖修飾 */
+
+.myWorldmap {
+    width: 850px;
+    height: 500px;
+    margin: auto;
+    position: fixed
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8,
+.cls-9 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+}
+
+.cls-1 {
+    fill: url(#未命名漸層_77);
+}
+
+.cls-2 {
+    fill: url(#未命名漸層_84);
+}
+
+.cls-3 {
+    fill: url(#未命名漸層_67);
+}
+
+.cls-4 {
+    fill: url(#未命名漸層_64);
+}
+
+.cls-5 {
+    fill: url(#未命名漸層_94);
+}
+
+.cls-6 {
+    stroke-width: 2px;
+    fill: url(#未命名漸層_94-2);
+}
+
+.cls-7 {
+    stroke-width: 1.15px;
+}
+
+.cls-7,
+.cls-9 {
+    opacity: 0.7;
+}
+
+.cls-9 {
+    opacity: 0.7;
+}
+
+.cls-8 {
+    fill: none;
+    stroke-width: 3px;
+}
+
+.cls-8:hover {
+    fill: red;
+    stroke-width: 3px;
+    
+}
+
+
+/* SVG圖檔結束 */
+
+.discribe {
+    height: 750px;
+}
+
+.myFont1 {
+    font-size: 2rem;
+}
+
+.myFont1 {
+    font-size: 1.5rem;
+}
+
+
+/* 主要特色描述 */
+
+.col-3>div {
+    height: 250px;
+}
+
+ul {
+    list-style-image: url(../PHOTO/素材/mainicon.png);
+}

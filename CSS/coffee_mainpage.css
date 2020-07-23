@@ -1,0 +1,150 @@
+body {
+    padding: 0px;
+    background-image: url(../PHOTO/主頁/background.png);
+    font-family: happy;
+}
+
+div {
+    border-radius: 10px
+}
+
+
+/* header開始 */
+
+#mymainpic {
+    margin-top: 80px;
+    /* margin: auto; */
+    padding: 0px;
+    width: 1520px;
+    height: 650px;
+    background-image: url(../PHOTO/主頁/mainpicture.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+
+
+/* ------主要選單開始------ */
+
+
+/* 字體大小及顏色 */
+
+.myfontColor {
+    color: white;
+    font-size: 1rem;
+}
+
+
+/* 主選單內容 */
+
+.selectMenu {
+    opacity: 0.8;
+    position: relative;
+    width: 1200px;
+    height: 250px;
+    margin: auto;
+    font-size: 3rem;
+    color: white;
+}
+
+.selectMenu>h1 {
+    text-align: right;
+    margin-top: 80px;
+    vertical-align: middle;
+}
+
+
+/* 選單效果 */
+
+.mychoose {
+    color: rgb(221, 218, 22);
+    transition: all 0.5s;
+    position: relative;
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
+    overflow: hidden;
+}
+
+.mychoose:before,
+.mychoose:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: all 0.3s;
+    transform: translate(0, -100%);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+.mychoose:after {
+    transition-delay: 0.2s;
+}
+
+.mychoose:hover:before,
+.mychoose:hover:after {
+    transform: translate(0, 0);
+}
+
+
+/* 選單效果結束 */
+
+.myInvite {
+    visibility: hidden;
+    position: absolute;
+}
+
+
+/* 主要選單結束 */
+
+
+/* 外部連結開始 */
+
+.myOther {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.card {
+    text-align: center;
+}
+
+.order {
+    height: 60px;
+    line-height: 60px;
+    /* text-align: left; */
+    margin: auto;
+}
+
+.order .line {
+    display: inline-block;
+    width: 500px;
+    border-top: 3px solid white;
+}
+
+.order .txt {
+    color: white;
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+.card:hover {
+    border-radius: 50px;
+    transition-duration: 1s;
+    opacity: 0.8;
+}
+
+.card:hover>img {
+    border-radius: 50px;
+    transition-duration: 1s;
+    opacity: 0.7;
+}
+
+
+/* 外部連結結束 */
